@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A715CAF314AB529C000BC0CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A715CAF214AB529C000BC0CD /* UIKit.framework */; };
+		A715CAF514AB529C000BC0CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A715CAF414AB529C000BC0CD /* Foundation.framework */; };
+		A715CAF714AB529C000BC0CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A715CAF614AB529C000BC0CD /* CoreGraphics.framework */; };
+		A715CAFD14AB529C000BC0CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A715CAFB14AB529C000BC0CD /* InfoPlist.strings */; };
+		A715CAFF14AB529C000BC0CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A715CAFE14AB529C000BC0CD /* main.m */; };
+		A715CB0314AB529C000BC0CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A715CB0214AB529C000BC0CD /* AppDelegate.m */; };
+		A715CB0B14AB5359000BC0CD /* RoundedCornerImageD.m in Sources */ = {isa = PBXBuildFile; fileRef = A715CB0914AB5359000BC0CD /* RoundedCornerImageD.m */; };
+		A715CB0D14AB54D1000BC0CD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A715CB0C14AB54D1000BC0CD /* QuartzCore.framework */; };
+		A715CB1014AB5559000BC0CD /* pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = A715CB0E14AB5559000BC0CD /* pattern.png */; };
+		A715CB1114AB5559000BC0CD /* pattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A715CB0F14AB5559000BC0CD /* pattern@2x.png */; };
+		A715CB1414AB567E000BC0CD /* RoundedCornerImageC.m in Sources */ = {isa = PBXBuildFile; fileRef = A715CB1314AB567E000BC0CD /* RoundedCornerImageC.m */; };
+		A715CB1714AB58F2000BC0CD /* RoundedCornerImageB.m in Sources */ = {isa = PBXBuildFile; fileRef = A715CB1514AB58F2000BC0CD /* RoundedCornerImageB.m */; };
+		A715CB1A14AB598A000BC0CD /* RoundedCornerImageA.m in Sources */ = {isa = PBXBuildFile; fileRef = A715CB1814AB598A000BC0CD /* RoundedCornerImageA.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A715CAEE14AB529C000BC0CD /* RoundedCornerImageWithShadow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoundedCornerImageWithShadow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A715CAF214AB529C000BC0CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A715CAF414AB529C000BC0CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A715CAF614AB529C000BC0CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A715CAFA14AB529C000BC0CD /* RoundedCornerImageWithShadow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RoundedCornerImageWithShadow-Info.plist"; sourceTree = "<group>"; };
+		A715CAFC14AB529C000BC0CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A715CAFE14AB529C000BC0CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A715CB0014AB529C000BC0CD /* RoundedCornerImageWithShadow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoundedCornerImageWithShadow-Prefix.pch"; sourceTree = "<group>"; };
+		A715CB0114AB529C000BC0CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A715CB0214AB529C000BC0CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A715CB0914AB5359000BC0CD /* RoundedCornerImageD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedCornerImageD.m; sourceTree = "<group>"; };
+		A715CB0A14AB5359000BC0CD /* RoundedCornerImageD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedCornerImageD.h; sourceTree = "<group>"; };
+		A715CB0C14AB54D1000BC0CD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A715CB0E14AB5559000BC0CD /* pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pattern.png; sourceTree = "<group>"; };
+		A715CB0F14AB5559000BC0CD /* pattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pattern@2x.png"; sourceTree = "<group>"; };
+		A715CB1214AB567E000BC0CD /* RoundedCornerImageC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedCornerImageC.h; sourceTree = "<group>"; };
+		A715CB1314AB567E000BC0CD /* RoundedCornerImageC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedCornerImageC.m; sourceTree = "<group>"; };
+		A715CB1514AB58F2000BC0CD /* RoundedCornerImageB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedCornerImageB.m; sourceTree = "<group>"; };
+		A715CB1614AB58F2000BC0CD /* RoundedCornerImageB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedCornerImageB.h; sourceTree = "<group>"; };
+		A715CB1814AB598A000BC0CD /* RoundedCornerImageA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedCornerImageA.m; sourceTree = "<group>"; };
+		A715CB1914AB598A000BC0CD /* RoundedCornerImageA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedCornerImageA.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A715CAEB14AB529C000BC0CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A715CB0D14AB54D1000BC0CD /* QuartzCore.framework in Frameworks */,
+				A715CAF314AB529C000BC0CD /* UIKit.framework in Frameworks */,
+				A715CAF514AB529C000BC0CD /* Foundation.framework in Frameworks */,
+				A715CAF714AB529C000BC0CD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A715CAE314AB529C000BC0CD = {
+			isa = PBXGroup;
+			children = (
+				A715CB0C14AB54D1000BC0CD /* QuartzCore.framework */,
+				A715CAF814AB529C000BC0CD /* RoundedCornerImageWithShadow */,
+				A715CAF114AB529C000BC0CD /* Frameworks */,
+				A715CAEF14AB529C000BC0CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A715CAEF14AB529C000BC0CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A715CAEE14AB529C000BC0CD /* RoundedCornerImageWithShadow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A715CAF114AB529C000BC0CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A715CAF214AB529C000BC0CD /* UIKit.framework */,
+				A715CAF414AB529C000BC0CD /* Foundation.framework */,
+				A715CAF614AB529C000BC0CD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A715CAF814AB529C000BC0CD /* RoundedCornerImageWithShadow */ = {
+			isa = PBXGroup;
+			children = (
+				A715CB0114AB529C000BC0CD /* AppDelegate.h */,
+				A715CB0214AB529C000BC0CD /* AppDelegate.m */,
+				A715CB0E14AB5559000BC0CD /* pattern.png */,
+				A715CB0F14AB5559000BC0CD /* pattern@2x.png */,
+				A715CB1914AB598A000BC0CD /* RoundedCornerImageA.h */,
+				A715CB1814AB598A000BC0CD /* RoundedCornerImageA.m */,
+				A715CB1614AB58F2000BC0CD /* RoundedCornerImageB.h */,
+				A715CB1514AB58F2000BC0CD /* RoundedCornerImageB.m */,
+				A715CB1214AB567E000BC0CD /* RoundedCornerImageC.h */,
+				A715CB1314AB567E000BC0CD /* RoundedCornerImageC.m */,
+				A715CB0A14AB5359000BC0CD /* RoundedCornerImageD.h */,
+				A715CB0914AB5359000BC0CD /* RoundedCornerImageD.m */,
+				A715CAF914AB529C000BC0CD /* Supporting Files */,
+			);
+			path = RoundedCornerImageWithShadow;
+			sourceTree = "<group>";
+		};
+		A715CAF914AB529C000BC0CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A715CAFA14AB529C000BC0CD /* RoundedCornerImageWithShadow-Info.plist */,
+				A715CAFB14AB529C000BC0CD /* InfoPlist.strings */,
+				A715CAFE14AB529C000BC0CD /* main.m */,
+				A715CB0014AB529C000BC0CD /* RoundedCornerImageWithShadow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A715CAED14AB529C000BC0CD /* RoundedCornerImageWithShadow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A715CB0614AB529C000BC0CD /* Build configuration list for PBXNativeTarget "RoundedCornerImageWithShadow" */;
+			buildPhases = (
+				A715CAEA14AB529C000BC0CD /* Sources */,
+				A715CAEB14AB529C000BC0CD /* Frameworks */,
+				A715CAEC14AB529C000BC0CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoundedCornerImageWithShadow;
+			productName = RoundedCornerImageWithShadow;
+			productReference = A715CAEE14AB529C000BC0CD /* RoundedCornerImageWithShadow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A715CAE514AB529C000BC0CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A715CAE814AB529C000BC0CD /* Build configuration list for PBXProject "RoundedCornerImageWithShadow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A715CAE314AB529C000BC0CD;
+			productRefGroup = A715CAEF14AB529C000BC0CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A715CAED14AB529C000BC0CD /* RoundedCornerImageWithShadow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A715CAEC14AB529C000BC0CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A715CAFD14AB529C000BC0CD /* InfoPlist.strings in Resources */,
+				A715CB1014AB5559000BC0CD /* pattern.png in Resources */,
+				A715CB1114AB5559000BC0CD /* pattern@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A715CAEA14AB529C000BC0CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A715CAFF14AB529C000BC0CD /* main.m in Sources */,
+				A715CB0314AB529C000BC0CD /* AppDelegate.m in Sources */,
+				A715CB0B14AB5359000BC0CD /* RoundedCornerImageD.m in Sources */,
+				A715CB1414AB567E000BC0CD /* RoundedCornerImageC.m in Sources */,
+				A715CB1714AB58F2000BC0CD /* RoundedCornerImageB.m in Sources */,
+				A715CB1A14AB598A000BC0CD /* RoundedCornerImageA.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A715CAFB14AB529C000BC0CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A715CAFC14AB529C000BC0CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A715CB0414AB529C000BC0CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A715CB0514AB529C000BC0CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A715CB0714AB529C000BC0CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoundedCornerImageWithShadow/RoundedCornerImageWithShadow-Prefix.pch";
+				INFOPLIST_FILE = "RoundedCornerImageWithShadow/RoundedCornerImageWithShadow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A715CB0814AB529C000BC0CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoundedCornerImageWithShadow/RoundedCornerImageWithShadow-Prefix.pch";
+				INFOPLIST_FILE = "RoundedCornerImageWithShadow/RoundedCornerImageWithShadow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A715CAE814AB529C000BC0CD /* Build configuration list for PBXProject "RoundedCornerImageWithShadow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A715CB0414AB529C000BC0CD /* Debug */,
+				A715CB0514AB529C000BC0CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A715CB0614AB529C000BC0CD /* Build configuration list for PBXNativeTarget "RoundedCornerImageWithShadow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A715CB0714AB529C000BC0CD /* Debug */,
+				A715CB0814AB529C000BC0CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A715CAE514AB529C000BC0CD /* Project object */;
+}
